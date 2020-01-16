@@ -1,5 +1,5 @@
 import mcpi.minecraft as minecraft
-friendsIP = "45.33.105.164"
+friendsIP = ""
 friendsPort = 25565
-hackedMC = minecraft.Minecraft.create(friendsIP, friendsPort)
+hackedMC = minecraft.Minecraft.create(address=friendsIP, port=friendsPort)
 hackedMC.postToChat("Hello World")
